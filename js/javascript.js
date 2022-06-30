@@ -19,7 +19,7 @@ async function addGasStationsGeoJson(url) {
       clusters.addLayer(markers)
       clusters.addTo(map)
 }
-addCelltowersGeoJson('geojson/gas_stations.geojson')
+addGasStationsGeoJson('geojson/gas_stations.geojson')
 
 function defaultMapSettings() {
       map.setView([58.373523, 26.716045], 12)
