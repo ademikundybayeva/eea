@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/styles.css" />
+ <title>Web GIS</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" /> 
+ </head>
+ <body>
+   <div> <img src="img/banner.jpeg" alt="banner" width="100%" height="auto"> <div>
+     <nav>
+       <a href="index.html" class="active">Basic Map</a>
+       <a href="choroplethmap.html">Choropleth Map</a>
+       <a href="heatmap.html">Heatmap</a>
+     </nav>
+     <div class="title">
+       <h1> Web GIS Application <h1>
+     </div>
+     <div class="container">
+      <button onclick="defaultMapSettings()">Default view</button>
+       <div class="map-container" id="map"> </div>
+     </div>
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+        <script src="js/javascript.js"></script>
+        <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+     <footer class="prop" > &copy Ademi Kundybayeva, Tartu University, 2022 <footer>
+ </body>
+</html>
